@@ -1,5 +1,5 @@
-source 'https://rubygems.org'
+source :rubygems
 
 gem 'sinatra'
-gem 'Haml'
-gem 'shotgun'
+gem 'haml'
+
