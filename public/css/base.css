@@ -1,0 +1,16 @@
+@import url("lib/bootstrap.css");
+
+
+.navbar{
+  color: #6699A6;
+}
+
+.navbar-inner{
+  background-color: #6699A6;
+  //background-repeat: repeat-x;
+  background-image: -webkit-linear-gradient(top, #6699A6, #2F3448);
+}
+
+
+
+

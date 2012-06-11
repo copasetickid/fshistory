@@ -1,0 +1,25 @@
+!!! 5
+%head
+  %meta{ :content => 'width=620', :name => 'viewport'}
+  %title Locationize
+  %link{:rel => "stylesheet/less", :href => "/css/main.less"}
+  %script{:type => "text/javascript", :src => "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"}
+  %script{:type => "text/javascript", :src => "http://maps.googleapis.com/maps/api/js?key=AIzaSyDfP9eksOvc51nr_K9d-8iChr6iokwVfvM&sensor=false"}
+  %script{:type => "text/javascript", :src => "js/lib/less-1.3.0.min.js"}
+  %script{:type => "text/javascript", :src=> "js/app.js"}
+%body
+  %div.navbar
+    %div.navbar-inner
+      %div.container
+        %a{:class => "brand",:href => "index.haml"}Locationize
+        %ul{:class => "nav"}
+          %li
+  %div.container
+    %div#search-api
+      %form{:class=>"form-search", :action => ""}
+        %input{:type => "text", :class=> "input-medium search-query"}
+          %button{:type=> "button", :id => "searchFSVenue", :class=> "btn"}Search
+    %div#venues
+    %div#mapCanvas
+
+
